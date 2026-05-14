@@ -7,12 +7,14 @@
 	}
 	{enemy	;// not working in coop
 		{health 0.7}
-		{accuracy 0.1}
+		{accuracy 0.08}
 	}
 	{ally
 		{health 1.00}
+		{accuracy 5.0}
 	}
 	{player
 		{health 1.00}
+		{accuracy 5.0}
 	}
 }
