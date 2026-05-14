@@ -71,11 +71,11 @@
 ;/* - Repair Skills - */
 
 (define "skilled_repair"
-	{mechanic factor 1.0}
+	{mechanic factor 128.0}
 )
 
 (define "basic_repair"
-	{mechanic factor 0.5}
+	{mechanic factor 64.0}
 )
 
 
