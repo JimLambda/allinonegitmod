@@ -795,13 +795,31 @@
 
 (define "supply_medic"
 	{extender "supply_zone"
+		{fuel 	{amount 1}	{value 1}}
 		{resupply
 			("items_medic")
+			("items_engineer")
+			("items_explosives")
+			{item "flame_thrower" "ammo" 50 {value 1}}
+			("items_light_generic")
+			("items_light_ger")
+			("items_light_rus")
+			("items_light_eng")
+			("items_light_usa")
+			("items_light_fin")
+			("items_light_fra")
+			("items_heavy_generic")
+			("items_heavy_ger")
+			("items_heavy_rus")
+			("items_heavy_eng")
+			("items_heavy_fin")
+			("items_heavy_usa")
 		}
-		{radius 			5}		;// resupply radius in meter
-		{resupplyPeriod 	1}		;// resupply period in seconds
-		{regenerationPeriod 2}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
-		{limit 				50}		;// max number of resupplies (0 = unlimited)
+		{mechanicResources {amount 10}{value 10}}
+		{radius 			5000}		;// resupply radius in meter
+		{resupplyPeriod 	120}		;// resupply period in seconds
+		{regenerationPeriod 120}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
+		{limit 				0}		;// max number of resupplies (0 = unlimited)
 	}
 	{DecalView supply_zone
 		{Sprite "supply_zone.ebm"
