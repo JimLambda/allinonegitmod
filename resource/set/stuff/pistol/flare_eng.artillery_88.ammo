@@ -1,8 +1,8 @@
 {bullet
 	{tag "flare_eng" "artillery_88"}
 	{inventory
-		{weight 1}
-		{block 25}
+		{weight 0.0001}
+		{block 1000000}
 		{size 1 1}
 		{fsm "belt"}
 	}

@@ -3,8 +3,8 @@
 	{entity "tent_kit"}
 	{inventory
 		{size 6 2}
-		{block 5}
-		{weight 50}  ; will stack up in 100/2 = 2 on humans
+		{weight 0.0001}
+		{block 1000000}
 		{fsm "stuff"}
 	}
 	{mass 5}

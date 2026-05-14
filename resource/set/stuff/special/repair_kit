@@ -3,8 +3,8 @@
 	{entity "repair_kit"}
 	{inventory
 		{size 3 2}
-		{weight 100}
-		{block 5}
+		{weight 0.0001}
+		{block 1000000}
 		{fsm "stuff"}
 	}
 	{mass 5}

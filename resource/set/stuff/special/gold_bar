@@ -3,8 +3,8 @@
 	{entity "gold_bar"}
 	{inventory
 		{size 4 1}
-		{weight 100}
-		{block 5}
+		{weight 0.0001}
+		{block 1000000}
 		{fsm "stuff"}
 	}
 	{mass 20}

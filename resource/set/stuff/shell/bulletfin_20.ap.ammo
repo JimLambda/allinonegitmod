@@ -3,8 +3,8 @@
 	{tag "auto size1"}
 	{inventory
 		{size 2 2}
-		{weight 10}
-		{block 10}
+		{weight 0.0001}
+		{block 1000000}
 	}
 	{entity "20mm_fin_ap"}
 	{mass 0.337}

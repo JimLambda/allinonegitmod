@@ -2,8 +2,8 @@
 	{tag "bullet small_arms stackable pierce"}
 	{tag "bullet_fx size2 ap"}
 	{inventory
-		{weight 1.33}
-		{block 75}
+		{weight 0.0001}
+		{block 1000000}
 		{size 3 1}
 		{fsm "belt"}
 	}

@@ -3,8 +3,8 @@
 	{tag "bullet_fx size3 ap"}
 	{inventory
 		{size 2 2}
-		{weight 20}
-		{block 5}
+		{weight 0.0001}
+		{block 1000000}
 	}
 	{entity "atrifle_eng"}
 	{mass 0.15}

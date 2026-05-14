@@ -2,8 +2,8 @@
 	{tag "bullet stackable pierce hmgun ap"}
 	{tag "bullet_fx size3"}
 	{inventory
-		{weight 1}
-		{block 100}
+		{weight 0.0001}
+		{block 1000000}
 		{size 3 2}
 		{fsm "belt"}
 	}
