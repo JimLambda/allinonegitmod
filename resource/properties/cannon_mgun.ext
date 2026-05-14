@@ -28,7 +28,7 @@ actor
 	{Box
 		{Size 8 8}
 		{weight 10000}
-		{item "repair_kit" 1}
+		{item "repair_kit" 5000}
 	}
 }
 

@@ -41,7 +41,7 @@ actor
 		{Size 8 8}
 		{Weight 1000}
 		{item "can" 1}
-		{item "repair_kit" 5}
+		{item "repair_kit" 5000}
 	}
 }
 
