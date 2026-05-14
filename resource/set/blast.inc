@@ -3,7 +3,7 @@
 ;// Shell mass < 5 kg
 (define "he_level_1" ;"he_small_blast"
 	{damage blastwave
-		{energy (+ (/ %weight 2.5) (+ 0.9 %filler))}
+		{energy (+ (/ %weight 25) (+ 9 %filler))}
 		{area (* 0.5 (+ (/ %weight 10) (* 5 (+ %filler 0.25))))		(+ (/ %weight 10) (* 5 (+ %filler 0.25)))}
 		{ground_interaction_radius 0.5}
 	}
@@ -17,7 +17,7 @@
 ;// Shell mass > 5kg and Fill mass < 1kg
 (define "he_level_2" ;"he_medium_blast"
 	{damage blastwave
-		{energy (+ (/ %weight 5) (* 3 (+ %filler 0.25)))}
+		{energy (+ (/ %weight 50) (* 3 (+ %filler 2.5)))}
 		{area 0.4 0.5}
 		{ground_interaction_radius 0.5}
 	}
@@ -36,7 +36,7 @@
 ;// Shell mass > 5kg and Fill mass < 1kg
 (define "he_level_2_offmap" ;// copy of he_level_2. custom ground interaction radius for off-map entity
 	{damage blastwave
-		{energy (+ (/ %weight 5) (* 3 (+ %filler 0.25)))}
+		{energy (+ (/ %weight 50) (* 3 (+ %filler 2.5)))}
 		{area 0.4 0.5}
 		{ground_interaction_radius 2.5}
 	}
@@ -50,7 +50,7 @@
 ;// Shell mass 14 - 35kg and Fill mass 1 - 5kg
 (define "he_level_3" ;"he_large_blast"
 	{damage blastwave
-		{energy (+ (/ %weight 20) (+ 5 (* %filler 1)))}
+		{energy (+ (/ %weight 200) (+ 5 (* %filler 10)))}
 		{area 0.5 1.00}
 		{ground_interaction_radius 1.25}
 	}
@@ -69,7 +69,7 @@
 ;// Shell mass > 35kg and Fill mass 5 - 10kg
 (define "he_level_4" ;"he_super_blast"
 	{damage blastwave
-		{energy (+ (/ %weight 20) (+ 6 (* %filler 1)))}
+		{energy (+ (/ %weight 200) (+ 6 (* %filler 10)))}
 		{area 1.1 2.2}
 		{ground_interaction_radius 0.6}
 	}
@@ -88,7 +88,7 @@
 ;// Fill mass 10 - 25kg
 (define "he_level_5" ;"he_mega_blast"
 	{damage blastwave
-		{energy (+ (/ %weight 25) (+ 10 (* %filler 0.3)))}
+		{energy (+ (/ %weight 250) (+ 10 (* %filler 3)))}
 		{area 1.5 2.5}
 		{ground_interaction_radius 0.8}
 	}
@@ -107,7 +107,7 @@
 ;// Fill mass 25 - 100kg
 (define "he_level_6"
 	{damage blastwave
-		{energy (* %filler 0.75)}
+		{energy (* %filler 7.5)}
 		{area (+ 2 (/ %filler 100)) (+ 4 (/ %filler 50))}
 		{ground_interaction_radius 0.8}
 	}
@@ -126,7 +126,7 @@
 ;// Fill mass 100kg +
 (define "he_level_7"
 	{damage blastwave
-		{energy (* %filler 0.65)}
+		{energy (* %filler 6.5)}
 		{area (+ 2 (/ %filler 100)) (+ 4 (/ %filler 50))}
 		{ground_interaction_radius 0.8}
 	}
@@ -145,7 +145,7 @@
 ;// Fill mass 1000kg +
 (define "he_level_8"
 	{damage blastwave
-		{energy (* %filler 0.45)}
+		{energy (* %filler 4.5)}
 		{area (+ 4 (/ %filler 100)) (+ 5 (/ %filler 50))}
 		{ground_interaction_radius 0.8}
 	}
@@ -190,7 +190,7 @@
 ;// Rocket mass > 5kg and Fill mass < 1kg
 (define "rocket_level_2" 
 	{damage blastwave
-		{energy (+ (/ %weight 5) (* 3 (+ %filler 0.25)))}
+		{energy (+ (/ %weight 50) (* 3 (+ %filler 2.5)))}
 		{area 0.5 1.0}
 		{ground_interaction_radius 0.5}
 	}
@@ -204,7 +204,7 @@
 ;// Rocket mass 14 - 35kg and Fill mass 1 - 5kg
 (define "rocket_level_3" ;
 	{damage blastwave
-		{energy (+ (/ %weight 20) (+ 5 (* %filler 1)))}
+		{energy (+ (/ %weight 200) (+ 5 (* %filler 10)))}
 		{area 0.5 1.00}
 		{ground_interaction_radius 1.25}
 	}
@@ -223,7 +223,7 @@
 ;// Rocket mass > 35kg and Fill mass 5 - 10kg
 (define "rocket_level_4" ;
 	{damage blastwave
-		{energy (+ (/ %weight 20) (+ 6 (* %filler 1)))}
+		{energy (+ (/ %weight 200) (+ 6 (* %filler 10)))}
 		{area 0.75 1.50}
 		{ground_interaction_radius 0.6}
 	}
@@ -242,7 +242,7 @@
 ;// Rocket mass 10 - 25kg
 (define "rocket_level_5" ;
 	{damage blastwave
-		{energy (+ (/ %weight 25) (+ 10 (* %filler 0.3)))}
+		{energy (+ (/ %weight 250) (+ 10 (* %filler 3)))}
 		{area 1.00 2.00}
 		{ground_interaction_radius 0.8}
 	}
@@ -261,7 +261,7 @@
 ;// Rocket mass 25 - 100kg
 (define "rocket_level_6"
 	{damage blastwave
-		{energy (* %filler 0.75)}
+		{energy (* %filler 7.5)}
 		{area 1 2.00}
 		{ground_interaction_radius 0.8}
 	}
@@ -280,7 +280,7 @@
 ;// Fill mass 100kg +
 (define "rocket_level_7"
 	{damage blastwave
-		{energy (* %filler 0.5)}
+		{energy (* %filler 5)}
 		{area 1.5 3.00}
 		{ground_interaction_radius 0.8}
 	}

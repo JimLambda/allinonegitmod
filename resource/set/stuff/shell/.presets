@@ -6,7 +6,7 @@
 
 (define "ap_blast"							;// standard cannon AP shells
 	{damage blastwave
-		{energy 1.2}
+		{energy 12}
 		{area (* %0 1.5) (* %0 3)}
 		{ground_interaction_radius 0} 		;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
 	}
@@ -14,7 +14,7 @@
 
 (define "apcr_blast"						;// Sub-Caliber/High Velocity shells
 	{damage blastwave
-		{energy 1.2}
+		{energy 12}
 		{area (* %0 1) (* %0 2)}
 		{ground_interaction_radius 0} 		;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
 	}
@@ -22,7 +22,7 @@
 
 (define "he_auto_blast"						;// 20-40mm Autocannon HE shells
 	{damage blastwave
-		{energy (* %0 0.9)}
+		{energy (* %0 9)}
 		{area 0.3 0.6}
 		{ground_interaction_radius 0.2}
 	}
@@ -37,7 +37,7 @@
 
 (define "heat_medium_blast"					;// 75-99mm cannon HEAT shells
 	{damage blastwave
-		{energy (* %0 1.05)}
+		{energy (* %0 10.5)}
 		{area 0.4 0.5}
 		{ground_interaction_radius 0.5}
 	}
@@ -50,7 +50,7 @@
 
 (define "heat_large_blast"					;// 105-149mm cannon HEAT shells
 	{damage blastwave
-		{energy (* %0 1.4)}
+		{energy (* %0 14)}
 		{area 0.4 0.5}
 		{ground_interaction_radius 0.5}
 	}
@@ -68,7 +68,7 @@
 
 (define "heat_blast"						;// All cannon HEAT Shells
 	{damage blastwave
-		{energy 3}
+		{energy 30}
 		{area 2 3}
 		{ground_interaction_radius 0.2}
 	}
