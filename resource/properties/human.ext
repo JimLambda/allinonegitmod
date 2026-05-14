@@ -277,8 +277,8 @@
 		("abm_human")
 		{AimBone "aim_ref"}
 	}
-	{ManualAccuracy 1.00}
-	{ManualAccuracyZoom 1.50}
+	{ManualAccuracy 10000.00}
+	{ManualAccuracyZoom 10000.50}
 	{TpcInstantAiming}
 	{UseLookatAiming}
 ;//	{AnimatedAiming}

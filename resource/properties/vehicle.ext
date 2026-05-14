@@ -17,8 +17,8 @@
 }
 
 {Weaponry
-	{ManualAccuracy 1.00}
-	{ManualAccuracyZoom 1.25}
+	{ManualAccuracy 10000.00}
+	{ManualAccuracyZoom 10000.25}
 }
 
 {RimLight}
