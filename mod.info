@@ -1,0 +1,21 @@
+; This is a template mod descriptor file
+; See README.txt for details
+; Comments start with ';'
+{mod
+	; name of your mod
+	{name "allinonegitmod"}
+	
+	; mod tags
+	;{tags "list of tags"}
+
+	; description of your mod
+	{desc "All in one mod, version is managed by git, instead of different mods."}
+
+	; oldest game version your mod is still compatible with (when in doubt, enter the latest version you tested)
+	{minGameVersion "0.000"}
+	; latest game version your mod has been tested on and is compatible with (you can omit this number to make the mod work on future versions if you are sure updates to the vanilla game will not break it)
+	{maxGameVersion "2.910"}
+	
+	; You can specify dependencies in "require" blocks. 
+	;{require "template_mod_dependency_name"}
+}

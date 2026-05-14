@@ -1,0 +1,10 @@
+; SDL
+; Steam Game Registry Definitions
+{steam
+	{community
+		; Game Unique Custom URL identifier
+		{name		"400750"}
+		; Game Official Group ID
+		{communityId			103582791439900992}
+	}
+}

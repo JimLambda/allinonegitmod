@@ -1,0 +1,9 @@
+;SDL
+
+(include "car.ext")
+{props "halftrack"}
+("tracks" repair(30) thickness(20))
+
+{extender "talk"
+	{talker "tank"}
+}

@@ -1,0 +1,26 @@
+;SDL
+(include "stuff_small.ext")
+{lodclass "stuff_weapon"}
+{volume "body" 
+	{able {Obstacle 0}}
+}
+{volume "body1" 
+	{able {Obstacle 0}}
+}
+{volume "body2" 
+	{able {Obstacle 0}}
+}
+{volume "select" 
+	{able {Obstacle 0}}
+}
+{volume "fuel" 
+	{able {Obstacle 0}}
+}
+{volume "shield" 
+	{able {Obstacle 0}}
+}
+{volume "magazine"
+	{able clear {touch} {contact_ground}}
+	{thickness 1}
+	{able {Obstacle 0}}
+}

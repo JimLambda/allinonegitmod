@@ -1,0 +1,44 @@
+;SDL
+game_entity
+
+{extender "mine"}
+
+{props "stuff" "mine" "grenade" "steel" "collectable" "nocover" "no_blast_physics"}
+
+{obstacleID "nothing"}
+{collider "mine.ap.grenade"}
+{simulation {able 1} {disableLinked 1}}
+{simulatorId "grenade"}
+{constrain ground}
+
+{lodclass "stuff_mine"}
+
+{volume "body"
+	{density 0}
+}
+{volume "select"
+	{able clear {touch}}
+	{density 0}
+}
+
+{skeleton
+	{bone "mined_view"
+		{matrix34
+			0  0  1
+			0 -1  0
+			1  0  0
+			0  0  0
+		}
+	}
+}
+
+{armor
+	{setting "body"
+		{thickness 20}
+		{volumes "body*"}
+	}
+}
+
+{NoGroupMesh 1}
+
+{RimLight}

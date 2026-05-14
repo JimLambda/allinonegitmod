@@ -1,0 +1,26 @@
+;SDL
+game_entity
+
+{volume "body"
+	{thickness 3}
+}
+{volume "select"
+	{able clear {select}}
+	{density 0}
+}
+
+{props "explosive_barrel" "steel" "capacity" "stuff" "break_on_burn" "shed"}
+
+{obstacleID "construction"}
+{collider "construction"}
+
+{simulation {able 1}}
+{constrain ground}
+
+{extender "stuff"
+	{item "barrel"}
+}
+
+{lodclass "decor_medium"}
+
+{mass 20}

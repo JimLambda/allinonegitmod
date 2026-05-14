@@ -1,0 +1,5 @@
+	(include "stuff_grenade.ext")
+	{volume "body"
+		{able {contact}}
+	}
+	{props "physics_damping" "knife" "-grenade"}

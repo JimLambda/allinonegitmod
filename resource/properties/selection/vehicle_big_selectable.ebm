@@ -1,0 +1,6 @@
+{bitmap
+	{Axis  384 256 }
+	{Filtering  1 }
+	{Blend  alpha }
+	{Frame  "vehicle_big_selectable.dds" }
+}

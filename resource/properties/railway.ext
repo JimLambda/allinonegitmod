@@ -1,0 +1,41 @@
+;SDL
+actor
+
+(include "vehicle.ext")
+(include "armor.ext")
+(include "abm.inc")
+("brain_vehicle")
+;//{obstacleID "unbreakable"}
+{collider "train"}
+{PatherID  "railway"}
+{props "railway"}
+
+(define "restore_ik_time"
+	{RestoreIKTime 10}
+)
+
+{Chassis "railway"
+	{ignorePatherBounds}
+}
+
+(define "locomotion"
+	{Slow		10	}		;// km/h
+	{Normal		17	}
+	{Fast		30	}
+	{MaxSpeed	30	}		;// max speed, km/h
+	{StartTime	10	}		;// acceleration time from 0 to max. speed, seconds
+	{BrakeTime	5	}		;// deceleration time from max. speed to 0, seconds
+	{StopTime	10	}		;// stop time after turning off the engine, seconds
+)
+
+{autooperatable 0}
+
+("body" repair(45))
+("engine" repair(30))
+
+("train_durability" body(300) engine(200) turret(200) mantlet(175) gun(200))
+("basic_armor" args 15)
+
+{perks
+	{blastwave_modifier 5.0}
+}

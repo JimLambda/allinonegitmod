@@ -1,0 +1,20 @@
+	(include "/properties/construction.inc")
+	("armor_construction")
+	("armor_use_volume_thickness")
+	{armor
+		{setting "body"
+			{threshold
+				{blast {value 10}}
+			}
+		}
+	}
+	{props "construction" "stack" "straw" "burning"}
+	{Volume "body"
+		{Tags "body" "fire"}
+		{thickness 0}
+	}
+	{Volume "fire0"
+		{able clear}
+		{tags "fire"}
+	}
+	{lodclass "decor_medium"}

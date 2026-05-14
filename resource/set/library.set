@@ -1,0 +1,58 @@
+{library
+	{background
+		{video "/video/"}
+		{default "0xFFFFFFFF"}
+		{rus "0xFFB74C3D"}
+		{ger "0xFF7790A3"}
+	}
+	{lights
+		{light
+			{range 200000}
+			{distance 90000}
+			{color "0x009097a8"}
+			{axis_relative -0.3 -1.0 1} ; Right, View, Up
+		}
+		{light
+			{range 200000}
+			{distance 120000}
+			{color "0xac9d8c"} 
+			{axis_absolute 1.0 -0.5 0.1}
+			{animation
+				{axis_absolute 0 0 1}
+				{time 80}
+			}
+		}
+		{light
+			{range 200000}
+			{distance 120000}
+			{color "0x545454"} ;second
+			{axis_absolute 0 -1 -1}
+		}
+	}
+	{matrices
+		{"panzerfaust_60"
+		 "barrel"
+		 "can"
+			1 0 0
+			0 0 1
+			0 -1 0 ; 90° by x
+		}
+		{"repair_kit"
+		 "morphine"
+			0 0 -1
+			1 0 0
+			0 -1 0
+		}
+	}
+	{specular
+	  {tag "vehicle" 0.30}
+		{tag "airborne" 0.10}
+		{tag "helicopter" 0.10}
+		{tag "weapon" 0.30}
+		{tag "humanskin" 0.2}
+	}
+	{lightintensity
+		{tag "airborne" 1.0}
+		{tag "humanskin" 1.0}
+	}
+}

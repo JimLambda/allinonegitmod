@@ -1,0 +1,6 @@
+{bitmap
+	{Axis  150 150 }
+	{Filtering  1 }
+	{Blend  alpha }
+	{Frame  "vehicle_small_selected.dds" }
+}

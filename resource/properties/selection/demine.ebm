@@ -1,0 +1,6 @@
+{bitmap
+	{Axis  512 512 }
+	{Filtering  1 }
+	{Blend  Light }
+	{Frame "$/service/demine_zone.dds"}
+}
