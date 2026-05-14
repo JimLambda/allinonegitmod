@@ -12,52 +12,52 @@
 
 
 {"human"								; // Standard human vision
-	{uncover 200}
+	{uncover 20}
 	{h_fov 150}
 	{v_fov 180}
-	("spotting" r(10.0))
+	("spotting" r(2.0))
 }
 
 {"human_peripheral"						; // Additional all-round (weaker) situational awareness vision for humans
 	{uncover 10}
 	{h_fov 240}
 	{v_fov 120}
-	("spotting" r(0.22))
+	("spotting" r(0.44))
 }
 
 {"human_elite"							; // Soldiers with better vision (elites, officers, snipers)
-	{uncover 200}
+	{uncover 20}
 	{h_fov 150}
 	{v_fov 180}
-	("spotting" r(11.0))
+	("spotting" r(2.2))
 }
 
 {"human_recon"							; // Soldiers with dedicated best vision (recon soldiers)
-	{uncover 200}
+	{uncover 20}
 	{h_fov 150}
 	{v_fov 180}
-	("spotting" r(12.5))
+	("spotting" r(2.50))
 }
 
 {"rifle_telescope"						; // Primary vision for sniper scopes
 	{uncover 15}
 	{h_fov 360}
 	{v_fov 120}
-	("glass" r(15))
+	("glass" r(30))
 }
 
 {"field_glass"							; // Primary vision for binoculars
 	{uncover 30}
 	{h_fov 360}
 	{v_fov 120}
-	("glass" r(30))
+	("glass" r(60))
 }
 
 {"soldier_focused"						; // Secondary vision when soldier is looking through scope or binoculars
 	{uncover 10}
 	{h_fov 20}
 	{v_fov 90}
-	("spotting" r(1))					; // Disabled secondary vision when looking through scopes or binoculars
+	("spotting" r(2))					; // Disabled secondary vision when looking through scopes or binoculars
 	{wide 2}
 }
 
