@@ -12,10 +12,10 @@
 
 
 {"human"								; // Standard human vision
-	{uncover 20}
+	{uncover 200}
 	{h_fov 150}
 	{v_fov 180}
-	("spotting" r(1.0))
+	("spotting" r(10.0))
 }
 
 {"human_peripheral"						; // Additional all-round (weaker) situational awareness vision for humans
@@ -26,17 +26,17 @@
 }
 
 {"human_elite"							; // Soldiers with better vision (elites, officers, snipers)
-	{uncover 20}
+	{uncover 200}
 	{h_fov 150}
 	{v_fov 180}
-	("spotting" r(1.1))
+	("spotting" r(11.0))
 }
 
 {"human_recon"							; // Soldiers with dedicated best vision (recon soldiers)
-	{uncover 20}
+	{uncover 200}
 	{h_fov 150}
 	{v_fov 180}
-	("spotting" r(1.25))
+	("spotting" r(12.5))
 }
 
 {"rifle_telescope"						; // Primary vision for sniper scopes
