@@ -30,9 +30,9 @@
 		{"fortifications" "heavy_mg_maxim_m32_33"}
 		{"fortifications" "heavy_mg_m1917_30cal"}
 	}
-	{"resources" "100000%"}
-	{"resources_regeneration" "100%"}
-	{mechanic factor 128.0}
+	{"resources" "9000%"}
+	{"resources_regeneration" "1000%"}
+	{mechanic factor 512.0}
 )
 
 (define "engineer"
@@ -58,9 +58,9 @@
 		{"fortifications" "heavy_mg_maxim_m32_33"}
 		{"fortifications" "heavy_mg_m1917_30cal"}
 	}
-	{"resources" "100000%"}
-	{"resources_regeneration" "100%"}
-	{mechanic factor 128.0}
+	{"resources" "9000%"}
+	{"resources_regeneration" "1000%"}
+	{mechanic factor 512.0}
 )
 
 (define "engineer_heavy_fin"
@@ -87,9 +87,9 @@
 		{"fortifications" "heavy_mg_m1917_30cal"}
 
 	}
-	{"resources" "100000%"}
-	{"resources_regeneration" "100%"}
-	{mechanic factor 128.0}
+	{"resources" "9000%"}
+	{"resources_regeneration" "1000%"}
+	{mechanic factor 512.0}
 )
 
 
