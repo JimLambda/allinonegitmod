@@ -10,8 +10,29 @@
 	{barricade
 		{"fortifications" "foxhole"}
 		{"fortifications" "medic_rally"}
+
+		{"fortifications" "barricade_sq"}
+		{"fortifications" "barricade"}
+
+		{"fortifications" "barbwire"}
+		{"fortifications" "hedgehog"}
+
+		{"fortifications" "foxhole_big"}
+		{"fortifications" "mortar_pit"}
+		{"fortifications" "tank_cover"}
+
+		{"fortifications" "fin_bunker"}
+		{"fortifications" "fin_coastal_gun"}
+
+		{"fortifications" "heavy_mg_mg34"}
+		{"fortifications" "heavy_mg_maxim"}
+		{"fortifications" "heavy_mg_maxim_m1910_30"}
+		{"fortifications" "heavy_mg_maxim_m32_33"}
+		{"fortifications" "heavy_mg_m1917_30cal"}
 	}
-	{"resources" "10%"}
+	{"resources" "100000%"}
+	{"resources_regeneration" "100%"}
+	{mechanic factor 128.0}
 )
 
 (define "engineer"
@@ -28,14 +49,18 @@
 		{"fortifications" "mortar_pit"}
 		{"fortifications" "tank_cover"}
 
+		{"fortifications" "fin_bunker"}
+		{"fortifications" "fin_coastal_gun"}
+
 		{"fortifications" "heavy_mg_mg34"}
 		{"fortifications" "heavy_mg_maxim"}
 		{"fortifications" "heavy_mg_maxim_m1910_30"}
+		{"fortifications" "heavy_mg_maxim_m32_33"}
 		{"fortifications" "heavy_mg_m1917_30cal"}
 	}
-	{"resources" "1000%"}
-	{"resources_regeneration" "0%"}
-	{mechanic factor 1.0}
+	{"resources" "100000%"}
+	{"resources_regeneration" "100%"}
+	{mechanic factor 128.0}
 )
 
 (define "engineer_heavy_fin"
@@ -62,9 +87,9 @@
 		{"fortifications" "heavy_mg_m1917_30cal"}
 
 	}
-	{"resources" "1000%"}
-	{"resources_regeneration" "0%"}
-	{mechanic factor 1.0}
+	{"resources" "100000%"}
+	{"resources_regeneration" "100%"}
+	{mechanic factor 128.0}
 )
 
 
