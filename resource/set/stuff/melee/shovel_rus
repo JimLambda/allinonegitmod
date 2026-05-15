@@ -1,5 +1,5 @@
 {from "knife_stab"
-	{tag "foxhole" "engineering_fin"}
+	{tag "foxhole" "medic_rally" "trench fortification" "engineer" "engineering_fin"}
 	{entity "shovel_rus"}
 	{inventory
 		{size 4 2}

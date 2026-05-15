@@ -1,5 +1,5 @@
 {item
-	{tag "smallitemin1hand distributable trench"}
+	{tag "smallitemin1hand distributable trench fortification" "medic_rally" "engineer" "engineering_fin"}
 	{entity "pickaxe"}
 	{inventory
 		{size 4 3}
