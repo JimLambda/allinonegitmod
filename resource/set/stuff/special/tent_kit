@@ -1,5 +1,5 @@
 {item
-	{tag "smallitemin1hand dropboxed fortification" "medic_rally" "trench" "engineer" "engineering_fin"}
+	{tag "smallitemin1hand dropboxed fortification medic_rally trench engineer engineering_fin"}
 	{entity "tent_kit"}
 	{inventory
 		{size 6 2}
