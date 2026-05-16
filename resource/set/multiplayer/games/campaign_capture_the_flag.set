@@ -37,7 +37,7 @@
 	;30 min 	= 0.555
 	{settings
 		{difficulty				multiplayer}
-		{scoreFinal				1000}
+		{scoreFinal				500}
 		{preparationTime		0}	; seconds
 		{impregnableTimeout		10}	; seconds
 		{floraRespawn			0}
