@@ -65,4 +65,12 @@
 			{sway 0}
 		}
 	}
+	{level "lvl_superjim"
+		{vehicle
+			{accuracy 100.00}
+			{recoil 1.50}
+			{zoom_recoil 1.75}
+			{sway 0}
+		}
+	}
 }

@@ -529,3 +529,13 @@
 	("basic_repair")
 	("basic_gun")
 )
+
+(define "accuracy_skill_rank_superjim"
+	{"mgun_light" lvl_superjim}
+	{"mgun" lvl_superjim}
+	{"pistol" lvl_superjim}
+	{"rifle" lvl_superjim}
+	{"rocketlauncher" lvl_superjim}
+	{"smg" lvl_superjim}
+	{"tank_gun" lvl_superjim}
+)

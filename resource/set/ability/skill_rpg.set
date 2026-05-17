@@ -256,4 +256,36 @@
 			{sway 0}
 		}
 	}
+	{level "lvl_superjim"
+		{stand
+			{accuracy 100.00}
+			{recoil 0.75}
+			{zoom_recoil 1.00}
+			{sway 2.00}
+		}
+		{squat
+			{accuracy 100.00}
+			{recoil 1.00}
+			{zoom_recoil 1.25}
+			{sway 0.75}
+		}
+		{crawl
+			{accuracy 100.00}
+			{recoil 1.50}
+			{zoom_recoil 1.75}
+			{sway 0.10}
+		}
+		{cover
+			{accuracy 100.00}
+			{recoil 1.50}
+			{zoom_recoil 1.75}
+			{sway 0.10}
+		}
+		{vehicle
+			{accuracy 100.00}
+			{recoil 1.50}
+			{zoom_recoil 1.75}
+			{sway 0}
+		}
+	}
 }
