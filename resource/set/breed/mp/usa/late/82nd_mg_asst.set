@@ -12,6 +12,7 @@
 	{perks
 		(include "ability.inc")
 		("loader_skill_rank_4")("tier4_standard")
+		("accuracy_skill_rank_superjim")
 	}
 	{veterancy
 		(include "ability.inc")

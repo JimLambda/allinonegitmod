@@ -13,6 +13,7 @@
 		(include "ability.inc")
 		("rifle_skill_rank_2")("tier2_defense")
 		("at_rank_3")
+		("accuracy_skill_rank_superjim")
 	}
 	{veterancy
 		(include "ability.inc")

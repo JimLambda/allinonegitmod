@@ -15,6 +15,7 @@
 		("rifle_skill_rank_2")("tier2_defense")
 		("sniper_vision")
 		
+		("accuracy_skill_rank_superjim")
 	}
 	{veterancy
 		(include "ability.inc")

@@ -15,6 +15,7 @@
 		("skilled_repair")
 		("expert_gun")
 		
+		("accuracy_skill_rank_superjim")
 	}
 	{veterancy
 		(include "ability.inc")

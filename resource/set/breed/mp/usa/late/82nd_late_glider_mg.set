@@ -13,6 +13,7 @@
 		(include "ability.inc")
 		("mg_skill_rank_3")
 		("tier3_standard")
+		("accuracy_skill_rank_superjim")
 	}
 	{veterancy
 		(include "ability.inc")

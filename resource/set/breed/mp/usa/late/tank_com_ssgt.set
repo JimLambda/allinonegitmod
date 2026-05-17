@@ -12,6 +12,7 @@
 	{perks
 		(include "ability.inc")
 		("tank_commander")
+		("accuracy_skill_rank_superjim")
 	}
 	{veterancy
 		(include "ability.inc")

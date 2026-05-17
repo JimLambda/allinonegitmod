@@ -12,6 +12,7 @@
 	{perks
 		(include "ability.inc")
 		("rifle_skill_rank_1")("tier1_standard")
+		("accuracy_skill_rank_superjim")
 	}
 	{veterancy
 		(include "ability.inc")

@@ -16,6 +16,7 @@
 		(include "ability.inc")
 		("rifle_skill_rank_4")("tier5_standard")
 		("binocular_vision")
+		("accuracy_skill_rank_superjim")
 	}
 	{veterancy
 		(include "ability.inc")

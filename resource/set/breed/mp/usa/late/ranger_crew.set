@@ -14,6 +14,7 @@
 		("rifle_skill_rank_4")("tier4_standard")
 		("skilled_repair")
 		("expert_gun")
+		("accuracy_skill_rank_superjim")
 	}
 	{veterancy
 		(include "ability.inc")
