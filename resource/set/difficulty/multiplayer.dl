@@ -6,5 +6,6 @@
 
 		;{burst 1.5}					; multiplier to number of bullets in burst from weapon settings
 		{health 1.0}				; health multiplier from soldier settings
+		{accuracy 0.1}
 	}
 }
