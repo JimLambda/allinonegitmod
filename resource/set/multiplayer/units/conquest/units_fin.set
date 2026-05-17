@@ -620,8 +620,8 @@
 	{action "airstrike:sc_250"}
 }
 
-{"blenheim_mk1_recon" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 8} {cost 0} {not_for_sale 1}}
-{"blenheim_mk1" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 8} {cost 0} {not_for_sale 1}}
+{"blenheim_mk1_recon" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 0} {cost 0} {not_for_sale 1}}
+{"blenheim_mk1" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 0} {cost 0} {not_for_sale 1}}
 
 
 {"81mm_krh36_mortar_barrage"

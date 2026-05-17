@@ -751,9 +751,9 @@
 	{action "airstrike:fab_250"}
 }
 
-{"po2" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 8} {cost 0} {not_for_sale 1}}
-{"yak1_ser69" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 9} {cost 0} {not_for_sale 1}}
-{"il2_mod42" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 9} {cost 0} {not_for_sale 1}}
+{"po2" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 0} {cost 0} {not_for_sale 1}}
+{"yak1_ser69" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 0} {cost 0} {not_for_sale 1}}
+{"il2_mod42" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 0} {cost 0} {not_for_sale 1}}
 
 
 {"82mm_bm37_mortar_barrage"

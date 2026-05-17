@@ -1004,11 +1004,11 @@
 	{action "airstrike:500lb_mc"}
 }
 
-{"blenheim_mk1_eng_recon" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 8} {cost 0} {not_for_sale 1}}
-;{"blenheim_mk1_eng" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 8} {cost 0} {not_for_sale 1}}
-{"hurribomber_mk2c" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 9} {cost 0} {not_for_sale 1}}
-;{"typhoon_mk1b_recon" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 9} {cost 0} {not_for_sale 1}}
-{"typhoon_mk1b" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 9} {cost 0} {not_for_sale 1}}
+{"blenheim_mk1_eng_recon" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 0} {cost 0} {not_for_sale 1}}
+;{"blenheim_mk1_eng" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 0} {cost 0} {not_for_sale 1}}
+{"hurribomber_mk2c" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 0} {cost 0} {not_for_sale 1}}
+;{"typhoon_mk1b_recon" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 0} {cost 0} {not_for_sale 1}}
+{"typhoon_mk1b" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 0} {cost 0} {not_for_sale 1}}
 
 
 {"81mm_ml3_mortar_barrage"

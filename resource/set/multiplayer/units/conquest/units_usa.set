@@ -626,8 +626,8 @@
 	{action "airstrike:m64_500lb"}
 }
 
-{"p47_d22_recon" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 9} {cost 0} {not_for_sale 1}}
-{"p47_d22" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 9} {cost 0} {not_for_sale 1}}
+{"p47_d22_recon" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 0} {cost 0} {not_for_sale 1}}
+{"p47_d22" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 0} {cost 0} {not_for_sale 1}}
 
 
 {"81mm_m1_mortar_barrage"
