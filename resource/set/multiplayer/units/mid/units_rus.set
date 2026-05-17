@@ -36,20 +36,20 @@
 ; // Ba2 da2
 {"doctrine_bt2_da2"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(bt2_da2) crew1(tankman:1) crew2(tank_commander:1))
-	("doctrine_t1" cool(180) d(mid_rus_allround) cost(5))
+	("doctrine_t1" cool(0) d(mid_rus_allround) cost(5))
 	{tags "limit5"}
 }
 
 ; // Bt5
 {"doctrine_bt5_mid"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(bt5) crew1(tankman:2) crew2(tank_commander:1))
-	("doctrine_t1" cool(180) d(mid_rus_allround) cost(15))
+	("doctrine_t1" cool(0) d(mid_rus_allround) cost(15))
 }
 
 ; // BT7a
 {"doctrine_bt7a_mid"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(bt7a) crew1(tankman:2) crew2(tank_commander:1))
-	("doctrine_t1" cool(240) d(mid_rus_allround) cost(20))
+	("doctrine_t1" cool(0) d(mid_rus_allround) cost(20))
 }
 
 
@@ -58,20 +58,20 @@
 ; // 76mm m1938 AA gun
 {"doctrine_76mm_m1938_mid"
 	("towed_gun_doctrine" side(rus) period(mid) vehicle(gaz_aaa) crew_v(rifleman_1:1) cannon(76mm_m1938) crew_c(artilleryman:4))
-	("doctrine_t2" cool(300) d(mid_rus_allround) cost(40))
+	("doctrine_t2" cool(0) d(mid_rus_allround) cost(40))
 }
 
 ; // Artillery Signaller
 {"doctrine_squad_rus_signaller_mid(rus)"
 	("squad_with1types_doctrine" side(rus) period(mid) c1(signaller:1))
-	("doctrine_t2" cool(300) d(mid_rus_allround) cost(60))
+	("doctrine_t2" cool(0) d(mid_rus_allround) cost(60))
 	{tags "signaller"}
 }
 
 ; // 122mm M1910
 {"doctrine_122mm_m1910_mid"
 	("towed_gun_doctrine" side(rus) period(mid) vehicle(zis5) crew_v(rifleman_1:1) cannon(122mm_m1910) crew_c(artilleryman:4))
-	("doctrine_t2" cool(300) d(mid_rus_allround) cost(60))
+	("doctrine_t2" cool(0) d(mid_rus_allround) cost(60))
 }
 
 
@@ -80,19 +80,19 @@
 ; // 2x t3476_42 Tankodesantniki
 {"doctrine_tankodesantniki"
 	("squad_2vehicle3_doctrine" side(rus) period(mid) vehicle(t3476_42) crew1(tankman:3) crew2(tank_commander:1) crew3(smg_1:4))
-	("doctrine_t3" cool(480) d(mid_rus_allround) cost(50))
+	("doctrine_t3" cool(0) d(mid_rus_allround) cost(50))
 }
 
 ; // 122mm A19
 {"doctrine_122mm_a19_mid"
 	("towed_gun_doctrine" side(rus) period(mid) vehicle(zis5) crew_v(rifleman_1:1) cannon(122mm_a19) crew_c(artilleryman:5))
-	("doctrine_t3" cool(480) d(mid_rus_allround) cost(90))
+	("doctrine_t3" cool(0) d(mid_rus_allround) cost(90))
 }
 
 ; // Su152
 {"doctrine_su152"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(su152) crew1(tankman:4) crew2(tank_commander:1))
-	("doctrine_t3" cool(480) d(mid_rus_allround) cost(95))
+	("doctrine_t3" cool(0) d(mid_rus_allround) cost(95))
 }
 
 
@@ -106,20 +106,20 @@
 ; // Motorized sappers
 {"doctrine_squad_sapper_motorised_mid"
 	("squad_vehicle4_doctrine" side(rus) period(mid) vehicle(gaz_aaa) crew1(sapper_nco_rifle:1) crew2(sapper_builder:1) crew3(sapper_mine_ap:2) crew4(sapper_mine_at:2))
-	("doctrine_t1" cool(180) d(mid_rus_defensive) cost(5))
+	("doctrine_t1" cool(0) d(mid_rus_defensive) cost(5))
 	{tags "limit5"}
 }
 
 ; // 45mm M42 towed
 {"doctrine_towed_m42"
 	("towed_gun_doctrine" side(rus) period(mid) vehicle(t20) crew_v(tankman:2) cannon(45mm_m42) crew_c(artilleryman:4))
-	("doctrine_t1" cool(240) d(mid_rus_defensive) cost(15))
+	("doctrine_t1" cool(0) d(mid_rus_defensive) cost(15))
 }
 
 ; // 37mm 61k
 {"doctrine_37mm_61k_mid"
 	("towed_gun_doctrine" side(rus) period(mid) vehicle(zis5) crew_v(rifleman_1:1) cannon(37mm_61k) crew_c(artilleryman:3))
-	("doctrine_t1" cool(180) d(mid_rus_defensive) cost(25))
+	("doctrine_t1" cool(0) d(mid_rus_defensive) cost(25))
 }
 
 
@@ -128,19 +128,19 @@
 ; // 120mm mortar
 {"doctrine_120mm_pm38_mid"
 	("towed_gun_doctrine" side(rus) period(mid) vehicle(zis5) crew_v(rifleman_1:1) cannon(120mm_pm38) crew_c(artilleryman:2))
-	("doctrine_t2" cool(300) d(mid_rus_defensive) cost(30))
+	("doctrine_t2" cool(0) d(mid_rus_defensive) cost(30))
 }
 
 ; // 57mm Zis30
 {"doctrine_zis30"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(zis30) crew1(tankman:3) crew2(tank_commander:1))
-	("doctrine_t2" cool(300) d(mid_rus_defensive) cost(35))
+	("doctrine_t2" cool(0) d(mid_rus_defensive) cost(35))
 }
 
 ; // Zis6 Bm8 48
 {"doctrine_zis6_bm8_48_mid"
 	("squad_vehicle_doctrine" side(rus) period(mid) vehicle(zis6_bm8_48) crew(artilleryman:2))
-	("doctrine_t2" cool(300) d(mid_rus_defensive) cost(70))
+	("doctrine_t2" cool(0) d(mid_rus_defensive) cost(70))
 }
 
 
@@ -150,19 +150,19 @@
 ; // 85mm 52k
 {"doctrine_85mm_52k_mid"
 	("towed_gun_doctrine" side(rus) period(mid) vehicle(zis5) crew_v(rifleman_1:1) cannon(85mm_52k) crew_c(artilleryman:4))
-	("doctrine_t3" cool(480) d(mid_rus_defensive) cost(50))
+	("doctrine_t3" cool(0) d(mid_rus_defensive) cost(50))
 }
 
 ; // ML20
 {"doctrine_152mm_ml20_mid"
 	("towed_gun_doctrine" side(rus) period(mid) vehicle(zis5) crew_v(rifleman_1:1) cannon(152mm_ml20) crew_c(artilleryman:5))
-	("doctrine_t3" cool(480) d(mid_rus_defensive) cost(85))
+	("doctrine_t3" cool(0) d(mid_rus_defensive) cost(85))
 }
 
 ; // B4M
 {"doctrine_203mm_b4_mid"
 	("towed_gun_doctrine" side(rus) period(mid) vehicle(zis5) crew_v(rifleman_1:1) cannon(203mm_b4) crew_c(artilleryman:5))
-	("doctrine_t3" cool(480) d(mid_rus_defensive) cost(85))
+	("doctrine_t3" cool(0) d(mid_rus_defensive) cost(85))
 }
 
 
@@ -176,7 +176,7 @@
 ; // Yak Airstrike
 {"doctrine_yak1_mid"
 	("squad_vehicle_doctrine" side(rus) period(mid) vehicle(yak1_ser69) crew(pilot:1))
-	("doctrine_t1" cool(360) d(mid_rus_irregular) cost(10))
+	("doctrine_t1" cool(0) d(mid_rus_irregular) cost(10))
 	{action "airstrike:fab_50"}
 	{tags "limit3"}
 }
@@ -184,14 +184,14 @@
 ; // Flame T26
 {"doctrine_kht130_mid"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(kht130) crew1(tankman:2) crew2(tank_commander:1))
-	("doctrine_t1" cool(180) d(mid_rus_irregular) cost(5))
+	("doctrine_t1" cool(0) d(mid_rus_irregular) cost(5))
 	{tags "limit5"}
 }
 
 ; // Ampulomet
 {"doctrine_m41_ampulomet"
 	("squad_vehicle_doctrine" side(rus) period(mid) vehicle(m41_ampulomet) crew(artilleryman:2))
-	("doctrine_t1" cool(180) d(mid_rus_irregular) cost(10))
+	("doctrine_t1" cool(0) d(mid_rus_irregular) cost(10))
 }
 
 
@@ -200,20 +200,20 @@
 ; // Spetsnaz
 {"doctrine_squad_spetsnaz_mid(rus)"
 	("squad_with3types_doctrine" side(rus) period(mid) c1(spetsnaz_1:2) c2(spetsnaz_2:2) c3(spetsnaz_3:2))
-	("doctrine_t2" cool(270) d(mid_rus_irregular) cost(15))
+	("doctrine_t2" cool(0) d(mid_rus_irregular) cost(15))
 	{tags "limit3a"}
 }
 
 ; // OT-34
 {"doctrine_ot34"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(t3476_43_flame) crew1(tankman:3) crew2(tank_commander:1))
-	("doctrine_t2" cool(300) d(mid_rus_irregular) cost(45))
+	("doctrine_t2" cool(0) d(mid_rus_irregular) cost(45))
 }
 
 ; // T34 57 Mod41
 {"doctrine_t3457_41"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(t3457_41) crew1(tankman:3) crew2(tank_commander:1)) 
-	("doctrine_t2" cool(300) d(mid_rus_irregular) cost(50))
+	("doctrine_t2" cool(0) d(mid_rus_irregular) cost(50))
 }
 
 
@@ -223,28 +223,28 @@
 ; // IL2 Airstrike
 {"doctrine_il2_mid"
 	("squad_vehicle_doctrine" side(rus) period(mid) vehicle(il2_mod42) crew(pilot:1))
-	("doctrine_t3" cool(360) d(mid_rus_irregular) cost(30))
+	("doctrine_t3" cool(0) d(mid_rus_irregular) cost(30))
 	{action "airstrike:fab_250"} 
 }
 
 ; // 300mm BM30
 {"doctrine_300mm_bm30"
 	("squad_vehicle_doctrine" side(rus) period(mid) vehicle(300mm_m30) crew(artilleryman:4))
-	("doctrine_t3" cool(480) d(mid_rus_irregular) cost(85))
+	("doctrine_t3" cool(0) d(mid_rus_irregular) cost(85))
 	{tags "limit1"}
 }
 
 ; // Zis6 Bm13 16 Katyusha
 {"doctrine_zis6_bm13_16_mid"
 	("squad_vehicle_doctrine" side(rus) period(mid) vehicle(zis6_bm13_16) crew(artilleryman:2))
-	("doctrine_t3" cool(480) d(mid_rus_irregular) cost(100))
+	("doctrine_t3" cool(0) d(mid_rus_irregular) cost(100))
 	{tags "limit1a"}
 }
 
 ; // SU100Y
 {"doctrine_su100y"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(su100y) crew1(tankman:5) crew2(tank_commander:1))
-	("doctrine_t3" cool(480) d(mid_rus_irregular) cost(130))
+	("doctrine_t3" cool(0) d(mid_rus_irregular) cost(130))
 	{tags "limit1b"}
 }
 
@@ -259,20 +259,20 @@
 ; // Ba20 command vehicle
 {"doctrine_ba20_mid"
 	("squad_vehicle3_doctrine" side(rus) period(mid) vehicle(ba20_command) crew1(tankman:1) crew2(recon_nco:1) crew3(recon_rifle:1))
-	("doctrine_t1" cool(120) d(mid_rus_offensive) cost(5))
+	("doctrine_t1" cool(0) d(mid_rus_offensive) cost(5))
 	{tags "limit4"}
 }
 
 ; // T60
 {"doctrine_t60"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(t60) crew1(tankman:1) crew2(tank_commander:1))
-	("doctrine_t1" cool(240) d(mid_rus_offensive) cost(15))
+	("doctrine_t1" cool(0) d(mid_rus_offensive) cost(15))
 }
 
 ; // T70
 {"doctrine_t70_mid"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(t70) crew1(tankman:1) crew2(tank_commander:1))
-	("doctrine_t1" cool(240) d(mid_rus_offensive) cost(20))
+	("doctrine_t1" cool(0) d(mid_rus_offensive) cost(20))
 }
 
 
@@ -281,19 +281,19 @@
 ; // 76mm m1931 AA truck
 {"doctrine_yag10_29k_mid"
 	("squad_vehicle_doctrine" side(rus) period(mid) vehicle(yag10_29k) crew(artilleryman:4))
-	("doctrine_t2" cool(300) d(mid_rus_offensive) cost(25))
+	("doctrine_t2" cool(0) d(mid_rus_offensive) cost(25))
 }
 
 ; // KV1 S
 {"doctrine_kv1s"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(kv1s) crew1(tankman:4) crew2(tank_commander:1))
-	("doctrine_t2" cool(300) d(mid_rus_offensive) cost(50))
+	("doctrine_t2" cool(0) d(mid_rus_offensive) cost(50))
 }
 
 ; // T60 Bm8 24
 {"doctrine_t60_bm8_24_mid"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(t60_bm8_24) crew1(tankman:1) crew2(tank_commander:1))
-	("doctrine_t2" cool(300) d(mid_rus_offensive) cost(60))
+	("doctrine_t2" cool(0) d(mid_rus_offensive) cost(60))
 }
 
 
@@ -302,19 +302,19 @@
 ; // Su122
 {"doctrine_su122"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(su122) crew1(tankman:4) crew2(tank_commander:1))
-	("doctrine_t3" cool(480) d(mid_rus_offensive) cost(75))
+	("doctrine_t3" cool(0) d(mid_rus_offensive) cost(75))
 }
 
 ; // KV2
 {"doctrine_kv2_40_mid"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(kv2_40) crew1(tankman:5) crew2(tank_commander:1))
-	("doctrine_t3" cool(480) d(mid_rus_offensive) cost(85))
+	("doctrine_t3" cool(0) d(mid_rus_offensive) cost(85))
 }
 
 ; // 2x kv1_41
 {"doctrine_3xkv1"
 	("squad_2vehicle2_doctrine" side(rus) period(mid) vehicle(kv1_41) crew1(tankman:4) crew2(tank_commander:1))
-	("doctrine_t3" cool(480) d(mid_rus_offensive) cost(85))
+	("doctrine_t3" cool(0) d(mid_rus_offensive) cost(85))
 }
 
 
@@ -328,20 +328,20 @@
 ; // MMG Carrier
 {"doctrine_mmg_carrier_mid"
 	("squad_vehicle3_doctrine" side(rus) period(mid) vehicle(mmg_carrier_rus) crew1(guard_1:3) crew2(guard_2:2) crew3(guard_nco:1))
-	("doctrine_t1" cool(180) d(mid_rus_lendlease) cost(5))
+	("doctrine_t1" cool(0) d(mid_rus_lendlease) cost(5))
 	{tags "limit5"}
 }
 
 ; // M3 Stuart
 {"doctrine_m3_stuart_late_rus"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(m3_stuart_late_rus) crew1(tankman:3) crew2(tank_commander_m1928:1))
-	("doctrine_t1" cool(240) d(mid_rus_lendlease) cost(25))
+	("doctrine_t1" cool(0) d(mid_rus_lendlease) cost(25))
 }
 
 ; // Valentine II
 {"doctrine_valentine2_mid"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(valentine2) crew1(tankman:2) crew2(tank_commander:1))
-	("doctrine_t1" cool(240) d(mid_rus_lendlease) cost(25))
+	("doctrine_t1" cool(0) d(mid_rus_lendlease) cost(25))
 }
 
 
@@ -350,19 +350,19 @@
 ; // M3 Lee
 {"doctrine_m3_lee_rus_mid"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(m3_lee_rus) crew1(tankman:6) crew2(tank_commander_m1928:1))
-	("doctrine_t2" cool(300) d(mid_rus_lendlease) cost(30))
+	("doctrine_t2" cool(0) d(mid_rus_lendlease) cost(30))
 }
 
 ; // Zis2 with MG scout car
 {"doctrine_zis2_scoutcar_mg_mid"
 	("towed_gun_doctrine" side(rus) period(mid) vehicle(m3a1e1_scout_mgun) crew_v(artilleryman:3) cannon(57mm_zis2) crew_c(artilleryman:4))
-	("doctrine_t2" cool(300) d(mid_rus_lendlease) cost(40))
+	("doctrine_t2" cool(0) d(mid_rus_lendlease) cost(40))
 }
 
 ; // Churchill III
 {"doctrine_churchill3"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(churchill3) crew1(tankman:4) crew2(tank_commander:1))
-	("doctrine_t2" cool(300) d(mid_rus_lendlease) cost(50))
+	("doctrine_t2" cool(0) d(mid_rus_lendlease) cost(50))
 }
 
 
@@ -371,19 +371,19 @@
 ; // 2x M4A2 Sherman 75 Early
 {"doctrine_2x_m4a2_75_early_rus_mid"
 	("squad_2vehicle2_doctrine" side(rus) period(mid) vehicle(m4a2_75_early_rus) crew1(tankman:4) crew2(tank_commander_m1928:1))
-	("doctrine_t3" cool(480) d(mid_rus_lendlease) cost(50))
+	("doctrine_t3" cool(0) d(mid_rus_lendlease) cost(50))
 }
 
 ; // 107mm M1910
 {"doctrine_107mm_m1910_30_mid"
 	("towed_gun_doctrine" side(rus) period(mid) vehicle(universal_carrier_rus) crew_v(artilleryman:3) cannon(107mm_m1910_30) crew_c(artilleryman:4))
-	("doctrine_t3" cool(480) d(mid_rus_lendlease) cost(70))
+	("doctrine_t3" cool(0) d(mid_rus_lendlease) cost(70))
 }
 
 ; // Studebaker Bm13 16 Katyusha
 {"doctrine_katyusha"
 	("squad_vehicle_doctrine" side(rus) period(mid) vehicle(bm13_studebaker) crew(artilleryman:2))
-	("doctrine_t3" cool(480) d(mid_rus_lendlease) cost(100))
+	("doctrine_t3" cool(0) d(mid_rus_lendlease) cost(100))
 	{tags "limit1"}
 }
 
@@ -398,20 +398,20 @@
 ; // Political officer
 {"doctrine_squad_rus_politicalofficer_mid(rus)"
 	("squad_with1types_doctrine" side(rus) period(mid) c1(commisar2:1))
-	("doctrine_t1" cool(240) d(mid_rus_support) cost(10))
+	("doctrine_t1" cool(0) d(mid_rus_support) cost(10))
 	{tags "limit2"}
 }
 
 ; // Su26
 {"doctrine_su26_mid"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(su26) crew1(tankman:2) crew2(tank_commander:1))
-	("doctrine_t1" cool(240) d(mid_rus_support) cost(25))
+	("doctrine_t1" cool(0) d(mid_rus_support) cost(25))
 }
 
 ; // T50
 {"doctrine_t50_mid"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(t50) crew1(tankman:3) crew2(tank_commander:1))
-	("doctrine_t1" cool(240) d(mid_rus_support) cost(25))
+	("doctrine_t1" cool(0) d(mid_rus_support) cost(25))
 }
 
 
@@ -420,20 +420,20 @@
 ;// Recon plane
 {"doctrine_po2_mid"
 	("squad_vehicle_doctrine" side(rus) period(mid) vehicle(po2) crew(pilot:2))
-	("doctrine_t2" cool(360) d(mid_rus_support) cost(5))
+	("doctrine_t2" cool(0) d(mid_rus_support) cost(5))
 	{action "airstrike:reconnaissance_50"} 
 }
 
 ; // T3476_41e
 {"doctrine_t3476_41e"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(t3476_41e) crew1(tankman:3) crew2(tank_commander:1))
-	("doctrine_t2" cool(300) d(mid_rus_support) cost(40))
+	("doctrine_t2" cool(0) d(mid_rus_support) cost(40))
 }
 
 ; // KV8
 {"doctrine_kv8"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(kv8) crew1(tankman:3) crew2(tank_commander:1))
-	("doctrine_t2" cool(300) d(mid_rus_support) cost(45))
+	("doctrine_t2" cool(0) d(mid_rus_support) cost(45))
 }
 
 
@@ -442,20 +442,20 @@
 ; // KV1 42
 {"doctrine_kv1_42_mid"
 	("squad_vehicle2_doctrine" side(rus) period(mid) vehicle(kv1_42) crew1(tankman:4) crew2(tank_commander:1))
-	("doctrine_t3" cool(480) d(mid_rus_support) cost(60))
+	("doctrine_t3" cool(0) d(mid_rus_support) cost(60))
 }
 
 ; // BR-2
 {"doctrine_152mm_br2_mid"
 	("towed_gun_doctrine" side(rus) period(mid) vehicle(zis5) crew_v(rifleman_1:1) cannon(152mm_br2) crew_c(artilleryman:5))
-	("doctrine_t3" cool(480) d(mid_rus_support) cost(105))
+	("doctrine_t3" cool(0) d(mid_rus_support) cost(105))
 	{tags "limitf1"}
 }
 
 ; // BR-5
 {"doctrine_280mm_br5_mid"
 	("towed_gun_doctrine" side(rus) period(mid) vehicle(zis5) crew_v(rifleman_1:1) cannon(280mm_br5) crew_c(artilleryman:5))
-	("doctrine_t3" cool(480) d(mid_rus_support) cost(115))
+	("doctrine_t3" cool(0) d(mid_rus_support) cost(115))
 	{tags "limitf1a"}
 }
 

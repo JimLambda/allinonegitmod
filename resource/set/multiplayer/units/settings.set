@@ -1579,7 +1579,7 @@
 
 (define "doctrine_t1"
 	{charge 
-		{delay 300}
+		{delay 0}
 		{interval %cool}
 	}
 	{group "doctrine_t1"}
@@ -1589,7 +1589,7 @@
 
 (define "doctrine_t2"
 	{charge 
-		{delay 900}
+		{delay 0}
 		{interval %cool}
 	}
 	{group "doctrine_t2"}
@@ -1599,7 +1599,7 @@
 
 (define "doctrine_t3"
 	{charge 
-		{delay 1800}
+		{delay 0}
 		{interval %cool}
 	}
 	{group "doctrine_t3"}

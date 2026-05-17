@@ -36,20 +36,20 @@
 ; // Assault squad
 {"doctrine_squad_assault_early(fin)"
 	("squad_with6types_doctrine" side(fin) period(early) c1(squadleader:1) c2(smg_m20:2) c3(rifleman:3) c4(rifleman_sa:2) c5(rifleman_avs:1) c6(chauchat:1))
-	("doctrine_t1" cool(180) d(early_fin_allround) cost(5))
+	("doctrine_t1" cool(0) d(early_fin_allround) cost(5))
 	{tags "limit10"}
 }
 
 ; // 2x 50mm_krh38
 {"doctrine_50mm_krh38_early"
 	("squad_2vehicle_doctrine" side(fin) period(early) vehicle(50mm_krh38) crew(artilleryman:2))
-	("doctrine_t1" cool(180) d(early_fin_allround) cost(10))
+	("doctrine_t1" cool(0) d(early_fin_allround) cost(10))
 }
 
 ; // Ba6
 {"doctrine_ba6_fin_early"
 	("squad_vehicle2_doctrine" side(fin) period(early) vehicle(ba6_fin) crew1(tankman_vet:3) crew2(tank_commander_vet:1))
-	("doctrine_t1" cool(180) d(early_fin_allround) cost(15))
+	("doctrine_t1" cool(0) d(early_fin_allround) cost(15))
 }
 
 
@@ -58,19 +58,19 @@
 ; // 76mm_m1927
 {"doctrine_76mm_m1927_fin_early"
 	("towed_gun_doctrine" side(fin) period(early) vehicle(t20_fin) crew_v(tankman:2) cannon(76mm_m1927_fin) crew_c(artilleryman:4))
-	("doctrine_t2" cool(300) d(early_fin_allround) cost(30))
+	("doctrine_t2" cool(0) d(early_fin_allround) cost(30))
 }
 
 ; // 76mm_k02_30_40
 {"doctrine_76mm_k02_30_40_allround_early"
 	("towed_gun_doctrine" side(fin) period(early) vehicle(t20_fin) crew_v(tankman:2) cannon(76mm_k02_30_40) crew_c(artilleryman:4))
-	("doctrine_t2" cool(300) d(early_fin_allround) cost(45))
+	("doctrine_t2" cool(0) d(early_fin_allround) cost(45))
 }
 
 ; // Artillery Signaller
 {"doctrine_squad_signaller_early(fin)"
 	("squad_with1types_doctrine" side(fin) period(early) c1(signaller:1) b(doctrine))
-	("doctrine_t2" cool(300) d(early_fin_allround) cost(60))
+	("doctrine_t2" cool(0) d(early_fin_allround) cost(60))
 	{tags "signaller"}
 }
 
@@ -80,13 +80,13 @@
 ; // 170mm_minewerfer
 {"doctrine_170mm_minewerfer_early"
 	("towed_gun_doctrine" side(fin) period(early) vehicle(ford_3ton) crew_v(rifleman:1) cannon(170mm_minewerfer) crew_c(artilleryman:2))
-	("doctrine_t3" cool(480) d(early_fin_allround) cost(20))
+	("doctrine_t3" cool(0) d(early_fin_allround) cost(20))
 }
 
 ; // 155mm_h17
 {"doctrine_155mm_h17_early"
 	("towed_gun_doctrine" side(fin) period(early) vehicle(latil_m2tl6) crew_v(rifleman:1) cannon(155mm_h17) crew_c(artilleryman:4))
-	("doctrine_t3" cool(480) d(early_fin_allround) cost(80))
+	("doctrine_t3" cool(0) d(early_fin_allround) cost(80))
 }
 
 
@@ -100,20 +100,20 @@
 ; // Engineer squad
 {"doctrine_squad_engineer_early(fin)"
 	("squad_with5types_doctrine" side(fin) period(early) c1(engineer_sl:1) c2(engineer_rifle:6) c3(engineer_builder:2) c4(engineer_mine_at:2) c5(engineer_mine_d:1))
-	("doctrine_t1" cool(180) d(early_fin_defensive) cost(5))
+	("doctrine_t1" cool(0) d(early_fin_defensive) cost(5))
 	{tags "limit5"}
 }
 
 ; // 47mm pstk39
 {"doctrine_47mm_pstk39"
 	("towed_gun_doctrine" side(fin) period(early) vehicle(ford_3ton) crew_v(rifleman:1) cannon(47mm_pstk39) crew_c(artilleryman:4))
-	("doctrine_t1" cool(180) d(early_fin_defensive) cost(25))
+	("doctrine_t1" cool(0) d(early_fin_defensive) cost(25))
 }
 
 ; // Heavy engineer
 {"doctrine_heavy_engineer_early(fin)"
 	("squad_with1types_doctrine" side(fin) period(early) c1(engineer_heavy:2))
-	("doctrine_t1" cool(240) d(early_fin_defensive) cost(50))
+	("doctrine_t1" cool(0) d(early_fin_defensive) cost(50))
 	{tags "limit2"}
 }
 
@@ -123,19 +123,19 @@
 ; // 120mm Krh/40 mortar
 {"doctrine_120mm_krh40_early"
 	("towed_gun_doctrine" side(fin) period(early) vehicle(ford_3ton) crew_v(rifleman:1) cannon(120mm_krh40) crew_c(artilleryman:2))
-	("doctrine_t2" cool(300) d(early_fin_defensive) cost(30))
+	("doctrine_t2" cool(0) d(early_fin_defensive) cost(30))
 }
 
 ; // 40mm bofors
 {"doctrine_40mm_itk38b_early"
 	("towed_gun_doctrine" side(fin) period(early) vehicle(latil_m2tl6) crew_v(rifleman:1) cannon(40mm_itk38b) crew_c(artilleryman:3))
-	("doctrine_t2" cool(300) d(early_fin_defensive) cost(35))
+	("doctrine_t2" cool(0) d(early_fin_defensive) cost(35))
 }
 
 ; // 75 ItK/37 SK
 {"doctrine_75mm_itk37_early"
 	("towed_gun_doctrine" side(fin) period(early) vehicle(latil_m2tl6) crew_v(rifleman:1) cannon(75mm_itk37) crew_c(artilleryman:5))
-	("doctrine_t2" cool(300) d(early_fin_defensive) cost(70))
+	("doctrine_t2" cool(0) d(early_fin_defensive) cost(70))
 }
 
 
@@ -144,13 +144,13 @@
 ; // 107mm_k10
 {"doctrine_107mm_k10_early"
 	("towed_gun_doctrine" side(fin) period(early) vehicle(ford_3ton) crew_v(rifleman:1) cannon(107mm_k10) crew_c(artilleryman:4))
-	("doctrine_t3" cool(480) d(early_fin_defensive) cost(65))
+	("doctrine_t3" cool(0) d(early_fin_defensive) cost(65))
 }
 
 ; // 203mm h17
 {"doctrine_203mm_h17_early"
 	("towed_gun_doctrine" side(fin) period(early) vehicle(latil_m2tl6) crew_v(rifleman:1) cannon(203mm_h17) crew_c(artilleryman:5))
-	("doctrine_t3" cool(480) d(early_fin_defensive) cost(80))
+	("doctrine_t3" cool(0) d(early_fin_defensive) cost(80))
 }
 
 
@@ -164,7 +164,7 @@
 ; // Blenheim Small Airstrike
 {"doctrine_blenheim_small_early"
 	("squad_vehicle_doctrine" side(fin) period(early) vehicle(blenheim_mk1) crew(pilot:1))
-	("doctrine_t1" cool(360) d(early_fin_irregular) cost(10))
+	("doctrine_t1" cool(0) d(early_fin_irregular) cost(10))
 	{action "airstrike:sc_50"}
 	{tags "limit3"}
 }
@@ -172,14 +172,14 @@
 ; // Kt130
 {"doctrine_ot130_early"
 	("squad_vehicle2_doctrine" side(fin) period(early) vehicle(kht130_fin) crew1(tankman_vet:2) crew2(tank_commander_vet:1))
-	("doctrine_t1" cool(180) d(early_fin_irregular) cost(5))
+	("doctrine_t1" cool(0) d(early_fin_irregular) cost(5))
 	{tags "limit5"}
 }
 
 ; // White death
 {"doctrine_white_death"
 	("squad_with1types_doctrine" side(fin) period(early) c1(white_death:1) b(doctrine))
-	("doctrine_t1" cool(240) d(early_fin_irregular) cost(10))
+	("doctrine_t1" cool(0) d(early_fin_irregular) cost(10))
 	{tags "limit3a"}
 }
 
@@ -189,20 +189,20 @@
 ; // Searchlight
 {"doctrine_150mm_sw34_early"
 	("towed_gun_doctrine" side(fin) period(early) vehicle(ford_3ton) crew_v(rifleman:1) cannon(150mm_sw34) crew_c(artilleryman:2))
-	("doctrine_t2" cool(300) d(early_fin_irregular) cost(10))
+	("doctrine_t2" cool(0) d(early_fin_irregular) cost(10))
 }
 
 ; // Sissi squad
 {"doctrine_squad_sissi_early(fin)"
 	("squad_with6types_doctrine" side(fin) period(early) c1(sissi_sl:1) c2(sissi_smg_stick:1) c3(sissi_sa:2) c4(sissi_rifle:2) c5(sissi_mg:1) c6(sissi_mg_asst:1))
-	("doctrine_t2" cool(270) d(early_fin_irregular) cost(20))
+	("doctrine_t2" cool(0) d(early_fin_irregular) cost(20))
 	{tags "limit3b"}
 }
 
 ; // 76mm_k00
 {"doctrine_76mm_k00"
 	("towed_gun_doctrine" side(fin) period(early) vehicle(ford_3ton) crew_v(tankman:1) cannon(76mm_k00) crew_c(artilleryman:4))
-	("doctrine_t2" cool(300) d(early_fin_irregular) cost(30))
+	("doctrine_t2" cool(0) d(early_fin_irregular) cost(30))
 }
 
 
@@ -211,20 +211,20 @@
 ; // Blenheim Airstrike
 {"doctrine_blenheim_early"
 	("squad_vehicle_doctrine" side(fin) period(early) vehicle(blenheim_mk1) crew(pilot:1))
-	("doctrine_t3" cool(360) d(early_fin_irregular) cost(30))
+	("doctrine_t3" cool(0) d(early_fin_irregular) cost(30))
 	{action "airstrike:sc_250"}
 }
 
 ; // 114mm h18
 {"doctrine_114mm_h18_how_early"
 	("towed_gun_doctrine" side(fin) period(early) vehicle(ford_3ton) crew_v(rifleman:1) cannon(114mm_h18_how_early) crew_c(artilleryman:4))
-	("doctrine_t3" cool(480) d(early_fin_irregular) cost(45))
+	("doctrine_t3" cool(0) d(early_fin_irregular) cost(45))
 }
 
 ; // 105mm bofors
 {"doctrine_105mm_k34_early"
 	("towed_gun_doctrine" side(fin) period(early) vehicle(ford_3ton) crew_v(rifleman:1) cannon(105mm_k34) crew_c(artilleryman:4))
-	("doctrine_t3" cool(480) d(early_fin_irregular) cost(70))
+	("doctrine_t3" cool(0) d(early_fin_irregular) cost(70))
 }
 
 
@@ -238,20 +238,20 @@
 ; // Command Team
 {"doctrine_squad_command_early(fin)"
 	("squad_with3types_doctrine" side(fin) period(early) c1(officer:1) c2(squadleader:1) c3(rifleman:2))
-	("doctrine_t1" cool(240) d(early_fin_offensive) cost(5))
+	("doctrine_t1" cool(0) d(early_fin_offensive) cost(5))
 	{tags "limit3"}
 }
 
 ; // 20mm_breda Ford truck
 {"doctrine_ford_3ton_breda_early"
 	("squad_vehicle_doctrine" side(fin) period(early) vehicle(ford_3ton_breda) crew(artilleryman:3))
-	("doctrine_t1" cool(180) d(early_fin_offensive) cost(10))
+	("doctrine_t1" cool(0) d(early_fin_offensive) cost(10))
 }
 
 ; // T26E
 {"doctrine_t26e"
 	("squad_vehicle2_doctrine" side(fin) period(early) vehicle(t26e) crew1(tankman_vet:3) crew2(tank_commander_vet:1))
-	("doctrine_t1" cool(180) d(early_fin_offensive) cost(15))
+	("doctrine_t1" cool(0) d(early_fin_offensive) cost(15))
 }
 
 
@@ -260,19 +260,19 @@
 ; // T28_38_fin
 {"doctrine_t28_38_fin"
 	("squad_vehicle7_doctrine" side(fin) period(early) vehicle(t28_38_fin) crew1(tankman_vet:5) crew2(tank_commander_vet:1) crew3(jag_rifle:3) crew4(jag_mg:1) crew5(jag_mg_asst:1) crew6(jag_smg:1) crew7(jag_smg_stick:1))
-	("doctrine_t2" cool(300) d(early_fin_offensive) cost(35))
+	("doctrine_t2" cool(0) d(early_fin_offensive) cost(35))
 }
 
 ; // K18
 {"doctrine_84mm_k18_early"
 	("towed_gun_doctrine" side(fin) period(early) vehicle(ford_3ton) crew_v(rifleman:1) cannon(84mm_k18) crew_c(artilleryman:4))
-	("doctrine_t2" cool(300) d(early_fin_offensive) cost(40))
+	("doctrine_t2" cool(0) d(early_fin_offensive) cost(40))
 }
 
 ; // 122mm m1910
 {"doctrine_122mm_m1910_fin_early"
 	("towed_gun_doctrine" side(fin) period(early) vehicle(ford_3ton) crew_v(rifleman:1) cannon(122mm_m1910_fin) crew_c(artilleryman:4))
-	("doctrine_t2" cool(300) d(early_fin_offensive) cost(70))
+	("doctrine_t2" cool(0) d(early_fin_offensive) cost(70))
 }
 
 
@@ -281,7 +281,7 @@
 ; // 120mm_k78
 {"doctrine_120mm_k78_31_early"
 	("towed_gun_doctrine" side(fin) period(early) vehicle(ford_3ton) crew_v(rifleman:1) cannon(120mm_k78_31) crew_c(artilleryman:4))
-	("doctrine_t3" cool(480) d(early_fin_offensive) cost(65))
+	("doctrine_t3" cool(0) d(early_fin_offensive) cost(65))
 }
 
 
