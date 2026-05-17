@@ -37,10 +37,10 @@
 {heroic_a
 	("team_a")
 	{balancingFactorBonus
-		{cp 1.2}
-		{mpStart 1.4}
-		{mpFinish 1.4}
-		{payback 1.4}
+		{cp 3.6}
+		{mpStart 4.2}
+		{mpFinish 4.2}
+		{payback 4.2}
 		{chargeDelay 1.0}	;// adjusts the initial delay only
 		{charge 0.6}		;// adjusts the interval only
 	}
@@ -86,10 +86,10 @@
 {heroic_b
 	("team_b")
 	{balancingFactorBonus
-		{cp 1.2}
-		{mpStart 1.0}
-		{mpFinish 1.0}
-		{payback 1.25}
+		{cp 3.6}
+		{mpStart 3.0}
+		{mpFinish 3.0}
+		{payback 3.75}
 		{chargeDelay 1.0}	;// adjusts the initial delay only
 		{charge 0}			;// adjusts the interval only
 	}

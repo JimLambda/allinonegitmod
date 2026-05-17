@@ -45,10 +45,10 @@
 		{value %period}
 	}
 	{balancingFactorBonus
-		{cp 1.10}
-		{mpStart 1.10}
-		{mpFinish 1.75}
-		{payback 4.00}
+		{cp 3.30}
+		{mpStart 3.30}
+		{mpFinish 5.25}
+		{payback 12.00}
 		{chargeDelay 1.0}	;// adjusts the initial delay only
 		{charge 1.0}		;// adjusts the interval only
 	}

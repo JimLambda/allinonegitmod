@@ -84,7 +84,7 @@
 					("bot_state" cp(1.00) mpStart(1) mpFinish(1) payback(0.0))
 				}
 				{heroic
-					("bot_state" cp(1.00) mpStart(1) mpFinish(1) payback(0.0))
+					("bot_state" cp(3.00) mpStart(3) mpFinish(3) payback(0.0))
 				}
 			}
 		}
