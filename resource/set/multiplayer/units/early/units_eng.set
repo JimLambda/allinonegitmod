@@ -492,27 +492,27 @@
 
 ;AUTOMATIC WEAPONRY
 {"vickers_mg"
-	("vehicle2" period(early) cd(0) ci(0) t(cannon) side(eng) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(empl1) b(empl) cw(2) cp(2)
+	("vehicle2" period(early) cd(0) ci(0) t(cannon) side(eng) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(empl1) b(empl) cw(2) cp(0)
 	cost(100))
 }
 
 ;// Doctrine Units
 {"40mm_qf40_early"
-	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly cannon) side(eng) crew(artilleryman:3) g(empl37) b(empl) cw(1) cp(10)
+	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly cannon) side(eng) crew(artilleryman:3) g(empl37) b(empl) cw(1) cp(0)
 	cost(300))
 }
 {"94mm_qf_3_7_aa_early"
-	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly cannon mediumcan) side(eng) crew(artilleryman:6) g(empl3) b(empl) cw(1) cp(20)
+	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly cannon mediumcan) side(eng) crew(artilleryman:6) g(empl3) b(empl) cw(1) cp(0)
 	cost(500))
 }
 
 ; AT WEAPONRY
 {"37mm_qf_mk1"
-	("vehicle"  period(early) cd(0) ci(0) t(cannon) side(eng) crew(artilleryman:4) g(empl5) b(empl) cw(1) cp(6)
+	("vehicle"  period(early) cd(0) ci(0) t(cannon) side(eng) crew(artilleryman:4) g(empl5) b(empl) cw(1) cp(0)
 	cost(170))
 }
 {"40mm_qf2_early"
-	("vehicle"  period(early) cd(0) ci(0) t(cannon) side(eng) crew(artilleryman:4) g(empl6) b(empl) cw(1) cp(6)
+	("vehicle"  period(early) cd(0) ci(0) t(cannon) side(eng) crew(artilleryman:4) g(empl6) b(empl) cw(1) cp(0)
 	cost(210))
 }
 
@@ -522,61 +522,61 @@
 
 ;HOWITZERS
 {"81mm_ml3_early"
-	("vehicle"  period(early) cd(0) ci(0) t(cannon) side(eng) crew(crew:2) g(empl11) b(empl) cw(1) cp(12)
+	("vehicle"  period(early) cd(0) ci(0) t(cannon) side(eng) crew(crew:2) g(empl11) b(empl) cw(1) cp(0)
 	cost(250))
 }
 {"94mm_qf_how_early"
-	("vehicle"  period(early) cd(0) ci(0) t(cannon mediumcan) side(eng) crew(artilleryman:4) g(empl9) b(empl) cw(1) cp(12)
+	("vehicle"  period(early) cd(0) ci(0) t(cannon mediumcan) side(eng) crew(artilleryman:4) g(empl9) b(empl) cw(1) cp(0)
 	cost(340))
 }
 {"88mm_qf25_mk1_4p"
-	("vehicle"  period(early) cd(0) ci(0) t(artillery) side(eng) crew(artilleryman:4) g(empl13) b(empl) cw(1) cp(26)
+	("vehicle"  period(early) cd(0) ci(0) t(artillery) side(eng) crew(artilleryman:4) g(empl13) b(empl) cw(1) cp(0)
 	cost(750))
 }
 
 ;// Doctrine Units
 {"84mm_qf18_2pa"
-	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly cannon mediumcan) side(eng) crew(artilleryman:4) g(empl13) b(empl) cw(1) cp(26)
+	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly cannon mediumcan) side(eng) crew(artilleryman:4) g(empl13) b(empl) cw(1) cp(0)
 	cost(450))
 }
 {"84mm_qf18_4p"
-	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly artillery) side(eng) crew(artilleryman:4) g(empl10) b(empl) cw(1) cp(26)
+	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly artillery) side(eng) crew(artilleryman:4) g(empl10) b(empl) cw(1) cp(0)
 	cost(600))
 }
 {"84mm_qf18_5p"
-	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly artillery) side(eng) crew(artilleryman:4) g(empl10) b(empl) cw(1) cp(26)
+	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly artillery) side(eng) crew(artilleryman:4) g(empl10) b(empl) cw(1) cp(0)
 	cost(600))
 }
 {"88mm_qf25_mk1_5p"
-	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly artillery) side(eng) crew(artilleryman:4) g(empl10) b(empl) cw(1) cp(26)
+	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly artillery) side(eng) crew(artilleryman:4) g(empl10) b(empl) cw(1) cp(0)
 	cost(750))
 }
 {"114mm_qf_how_wooden"
-	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly artillery) side(eng) crew(artilleryman:4) g(empl15) b(empl) cw(1) cp(26)
+	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly artillery) side(eng) crew(artilleryman:4) g(empl15) b(empl) cw(1) cp(0)
 	cost(650))
 }
 {"114mm_qf_how"
-	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly artillery) side(eng) crew(artilleryman:4) g(empl15) b(empl) cw(1) cp(26)
+	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly artillery) side(eng) crew(artilleryman:4) g(empl15) b(empl) cw(1) cp(0)
 	cost(650))
 }
 ;{"114mm_bl_4_5_mk1"
-;	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly heavyart artillery) side(eng) crew(artilleryman:5) g(empl15) b(empl) cw(1) cp(26)
+;	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly heavyart artillery) side(eng) crew(artilleryman:5) g(empl15) b(empl) cw(1) cp(0)
 ;	cost(850))
 ;}
 {"152mm_bl_6"
-	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly heavyart artillery) side(eng) crew(artilleryman:5) g(empl16) b(empl) cw(1) cp(30)
+	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly heavyart artillery) side(eng) crew(artilleryman:5) g(empl16) b(empl) cw(1) cp(0)
 	cost(980))
 }
 {"152mm_bl_6_mk19"
-	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly heavyart artillery) side(eng) crew(artilleryman:5) g(empl16) b(empl) cw(1) cp(30)
+	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly heavyart artillery) side(eng) crew(artilleryman:5) g(empl16) b(empl) cw(1) cp(0)
 	cost(980))
 }
 {"183mm_bl_7_2"
-	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly heavyart artillery) side(eng) crew(artilleryman:5) g(empl17) b(empl) cw(1) cp(30)
+	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly heavyart artillery) side(eng) crew(artilleryman:5) g(empl17) b(empl) cw(1) cp(0)
 	cost(1400))
 }
 {"203mm_bl_8"
-	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly heavyart artillery) side(eng) crew(artilleryman:5) g(empl17) b(empl) cw(1) cp(30)
+	("vehicle"  period(early) cd(0) ci(0) t(doctrineonly heavyart artillery) side(eng) crew(artilleryman:5) g(empl17) b(empl) cw(1) cp(0)
 	cost(1400))
 }
 
@@ -587,73 +587,73 @@
 
 
 {"bedford_oyd"
-	("vehicle"  period(early) cd(0) ci(0) g(wheel2) side(eng) t(vehicle) crew(driver:1) b(vehicles) cw(1) cp(2)
+	("vehicle"  period(early) cd(0) ci(0) g(wheel2) side(eng) t(vehicle) crew(driver:1) b(vehicles) cw(1) cp(0)
 	cost(20))
 }
 {"daimler_dingo_boys"
-	("vehicle2" period(early) cd(0) ci(0) g(wheel4) side(eng) t(vehicle) crew1(vehicle_crew:1) crew2(vehicle_com_cpl:1) b(vehicles) cw(2) cp(4)
+	("vehicle2" period(early) cd(0) ci(0) g(wheel4) side(eng) t(vehicle) crew1(vehicle_crew:1) crew2(vehicle_com_cpl:1) b(vehicles) cw(2) cp(0)
 	cost(70))
 }
 {"daimler_dingo_early"
-	("vehicle2"  period(early) cd(0) ci(0) g(wheel3) side(eng) t(vehicle) crew1(vehicle_crew:1) crew2(vehicle_com_cpl:1) b(vehicles) cw(2) cp(4)
+	("vehicle2"  period(early) cd(0) ci(0) g(wheel3) side(eng) t(vehicle) crew1(vehicle_crew:1) crew2(vehicle_com_cpl:1) b(vehicles) cw(2) cp(0)
 	cost(90))
 }
 {"morris_cs9"
-	("vehicle2" period(early) cd(0) ci(0) g(wheel5) side(eng) t(vehicle) crew1(vehicle_crew:3) crew2(vehicle_com_sgt:1) b(vehicles) cw(2) cp(4)
+	("vehicle2" period(early) cd(0) ci(0) g(wheel5) side(eng) t(vehicle) crew1(vehicle_crew:3) crew2(vehicle_com_sgt:1) b(vehicles) cw(2) cp(0)
 	cost(90))
 }
 {"bren_carrier"
-	("vehicle2" period(early) cd(0) ci(0) g(wheel4) side(eng) t(vehicle) crew1(driver:1) crew2(crew:1) b(vehicles) cw(2) cp(4)
+	("vehicle2" period(early) cd(0) ci(0) g(wheel4) side(eng) t(vehicle) crew1(driver:1) crew2(crew:1) b(vehicles) cw(2) cp(0)
 	cost(65))
 }
 {"universal_carrier_mk1"
-	("vehicle2"  period(early) cd(0) ci(0) g(wheel3) side(eng) t(vehicle) crew1(driver:1) crew2(crew:1) b(vehicles) cw(2) cp(4)
+	("vehicle2"  period(early) cd(0) ci(0) g(wheel3) side(eng) t(vehicle) crew1(driver:1) crew2(crew:1) b(vehicles) cw(2) cp(0)
 	cost(65))
 }
 {"mmg_carrier_mk1"
-	("vehicle3" period(early) cd(0) ci(0) g(wheel4) side(eng) t(vehicle) crew1(driver:1) crew2(mg_crew:1) crew3(mg_crew_asst:1) b(vehicles) cw(2) cp(4)
+	("vehicle3" period(early) cd(0) ci(0) g(wheel4) side(eng) t(vehicle) crew1(driver:1) crew2(mg_crew:1) crew3(mg_crew_asst:1) b(vehicles) cw(2) cp(0)
 	cost(110))
 }
 {"bedford_oyd_art_ammo"
-	("vehicle"  period(early) cd(0) ci(0) g(supply1) side(eng) t(vehicle supply) crew(driver:1) b(vehicles) cw(1) cp(6)
+	("vehicle"  period(early) cd(0) ci(0) g(supply1) side(eng) t(vehicle supply) crew(driver:1) b(vehicles) cw(1) cp(0)
 	cost(190))
 }
 {"bedford_oyc_fuel"
-	("vehicle"  period(early) cd(0) ci(0) g(supply2) side(eng) t(vehicle supply) crew(driver:1) b(vehicles) cw(1) cp(2)
+	("vehicle"  period(early) cd(0) ci(0) g(supply2) side(eng) t(vehicle supply) crew(driver:1) b(vehicles) cw(1) cp(0)
 	cost(90))
 }
 {"bedford_oyd_engineer"
-	("vehicle" period(early) cd(0) ci(0) g(supply3) side(eng) t(vehicle supply engtruck) crew(r_eng_builder:2)  b(vehicles) cw(1) cp(2)
+	("vehicle" period(early) cd(0) ci(0) g(supply3) side(eng) t(vehicle supply engtruck) crew(r_eng_builder:2)  b(vehicles) cw(1) cp(0)
 	cost(130))
 }
 
 ;// Doctrine Units
 {"bedford_oyd_boys"
-	("vehicle"  period(early) cd(0) ci(0) g(wheel2) side(eng) t(doctrineonly vehicle) crew(driver:1) b(vehicles) cw(1) cp(2)
+	("vehicle"  period(early) cd(0) ci(0) g(wheel2) side(eng) t(doctrineonly vehicle) crew(driver:1) b(vehicles) cw(1) cp(0)
 	cost(20))
 }
 {"morris_c8"
-	("vehicle"  period(early) cd(0) ci(0) g(wheel2) side(eng) t(doctrineonly vehicle) crew(driver:1) b(vehicles) cw(1) cp(2)
+	("vehicle"  period(early) cd(0) ci(0) g(wheel2) side(eng) t(doctrineonly vehicle) crew(driver:1) b(vehicles) cw(1) cp(0)
 	cost(20))
 }
 {"bren_carrier_boys"
-	("vehicle2" period(early) cd(0) ci(0) g(wheel4) side(eng) t(doctrineonly vehicle) crew1(driver:1) crew2(crew:1) b(vehicles) cw(2) cp(4)
+	("vehicle2" period(early) cd(0) ci(0) g(wheel4) side(eng) t(doctrineonly vehicle) crew1(driver:1) crew2(crew:1) b(vehicles) cw(2) cp(0)
 	cost(80))
 }
 {"universal_carrier_mk1_boys"
-	("vehicle2" period(early) cd(0) ci(0) g(wheel4) side(eng) t(doctrineonly vehicle) crew1(driver:1) crew2(crew:2) b(vehicles) cw(2) cp(4)
+	("vehicle2" period(early) cd(0) ci(0) g(wheel4) side(eng) t(doctrineonly vehicle) crew1(driver:1) crew2(crew:2) b(vehicles) cw(2) cp(0)
 	cost(80))
 }
 {"universal_carrier_mk1_2mg"
-	("vehicle2" period(early) cd(0) ci(0) g(wheel4) side(eng) t(doctrineonly vehicle) crew1(driver:1) crew2(crew:2) b(vehicles) cw(2) cp(4)
+	("vehicle2" period(early) cd(0) ci(0) g(wheel4) side(eng) t(doctrineonly vehicle) crew1(driver:1) crew2(crew:2) b(vehicles) cw(2) cp(0)
 	cost(80))
 }
 {"mortar_carrier_mk1"
-	("vehicle2" period(early) cd(0) ci(0) g(wheel4) side(eng) t(doctrineonly vehicle) crew1(driver:1) crew2(crew:2) b(vehicles) cw(2) cp(4)
+	("vehicle2" period(early) cd(0) ci(0) g(wheel4) side(eng) t(doctrineonly vehicle) crew1(driver:1) crew2(crew:2) b(vehicles) cw(2) cp(0)
 	cost(170))
 }
 {"mortar_carrier_mk1_boys"
-	("vehicle2" period(early) cd(0) ci(0) g(wheel4) side(eng) t(doctrineonly vehicle) crew1(driver:1) crew2(crew:3) b(vehicles) cw(2) cp(4)
+	("vehicle2" period(early) cd(0) ci(0) g(wheel4) side(eng) t(doctrineonly vehicle) crew1(driver:1) crew2(crew:3) b(vehicles) cw(2) cp(0)
 	cost(180))
 }
 
@@ -665,11 +665,11 @@
 
 ;LIGHT TANK
 {"vickers_mk6"
-	("vehicle2" period(early) cd(0) ci(0) t(light) side(eng) crew1(tankman:2) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(12)
+	("vehicle2" period(early) cd(0) ci(0) t(light) side(eng) crew1(tankman:2) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(0)
 	cost(170))
 }
 {"cruiser_mk1"
-	("vehicle2" period(early) cd(0) ci(0) t(light) side(eng) crew1(tankman:5) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(12)
+	("vehicle2" period(early) cd(0) ci(0) t(light) side(eng) crew1(tankman:5) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(0)
 	cost(200))
 }
 {"cruiser_mk2_all"
@@ -708,35 +708,35 @@
 
 ;// Doctrine Units
 {"cruiser_mk2"
-	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:3) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(12)
+	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:3) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(0)
 	cost(250))
 }
 {"cruiser_mk2a"
-	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:4) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(12)
+	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:4) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(0)
 	cost(255))
 }
 {"cruiser_mk3"
-	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:3) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(12)
+	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:3) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(0)
 	cost(215))
 }
 {"cruiser_mk3_late"
-	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:3) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(12)
+	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:3) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(0)
 	cost(220))
 }
 {"cruiser_mk4"
-	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:3) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(12)
+	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:3) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(0)
 	cost(280))
 }
 {"cruiser_mk4a"
-	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:3) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(12)
+	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:3) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(0)
 	cost(285))
 }
 {"matilda1"
-	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:1) crew2(tank_commander:1) g(light4) b(tanks) cw(6) cp(16)
+	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:1) crew2(tank_commander:1) g(light4) b(tanks) cw(6) cp(0)
 	cost(300))
 }
 {"matilda1_50"
-	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:1) crew2(tank_commander:1) g(light4) b(tanks) cw(6) cp(16)
+	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:1) crew2(tank_commander:1) g(light4) b(tanks) cw(6) cp(0)
 	cost(400))
 }
 
@@ -746,15 +746,15 @@
 
 ;// Doctrine Units
 {"matilda2_mk1"
-	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly medium) side(eng) crew1(tankman:3) crew2(tank_commander:1) g(medium3) b(tanks) cw(6) cp(16)
+	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly medium) side(eng) crew1(tankman:3) crew2(tank_commander:1) g(medium3) b(tanks) cw(6) cp(0)
 	cost(420))
 }
 {"matilda2_mk3"
-	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly medium) side(eng) crew1(tankman:3) crew2(tank_commander:1) g(medium3) b(tanks) cw(6) cp(16)
+	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly medium) side(eng) crew1(tankman:3) crew2(tank_commander:1) g(medium3) b(tanks) cw(6) cp(0)
 	cost(420))
 }
 {"matilda2_mk4_cs"
-	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly medium) side(eng) crew1(tankman:3) crew2(tank_commander:1) g(medium4) b(tanks) cw(6) cp(16)
+	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly medium) side(eng) crew1(tankman:3) crew2(tank_commander:1) g(medium4) b(tanks) cw(6) cp(0)
 	cost(420))
 }
 
@@ -763,13 +763,13 @@
 ;SPG
 
 {"cruiser_mk1_cs"
-	("vehicle2" period(early) cd(0) ci(0) t(light) side(eng) crew1(tankman:5) crew2(tank_commander:1) g(light5) b(tanks) cw(4) cp(12)
+	("vehicle2" period(early) cd(0) ci(0) t(light) side(eng) crew1(tankman:5) crew2(tank_commander:1) g(light5) b(tanks) cw(4) cp(0)
 	cost(400))
 }
 
 ;// Doctrine Units
 {"cruiser_mk2a_cs"
-	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:4) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(12)
+	("vehicle2" period(early) cd(0) ci(0) t(doctrineonly light) side(eng) crew1(tankman:4) crew2(tank_commander:1) g(light4) b(tanks) cw(4) cp(0)
 	cost(420))
 }
 
